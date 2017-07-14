@@ -132,7 +132,7 @@ func generateReport(p *profile.Profile, cmd []string, vars variables, o *plugin.
 		return err
 	}
 
-	// Output to specified file.
+	// Output to specified file. s
 	o.UI.PrintErr("Generating report in ", output)
 	out, err := os.Create(output)
 	if err != nil {
